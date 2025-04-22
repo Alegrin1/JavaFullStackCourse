@@ -57,7 +57,7 @@ public class LibraryManagementSystem {
         boolean found = false;
         for (Book book : library.getBooks()) {
             if (book.isAvailability()) {
-                System.out.println(book); // Assuming toString() is implemented in Book and EBook
+                System.out.println(book);
                 found = true;
             }
         }
