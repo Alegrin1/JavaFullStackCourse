@@ -1,7 +1,7 @@
 public class BankMain {
 
     public static void main(String[] args) {
-        BankAccount account1 = null; // Declare outside try to potentially use in finally
+        BankAccount account1 = null;
 
         try {
             account1 = new BankAccount("ACC12345", "Alice Wonderland", 500.00);
